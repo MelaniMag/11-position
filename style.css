@@ -1,5 +1,6 @@
 body {
     background-color: antiquewhite;
+    font-family: "Roboto", sans-serif;
 }
 
 .site-nav {
@@ -10,6 +11,8 @@ body {
     display: flex;
     list-style-type: none;
     padding: 0;
+    justify-content: center;
+    gap: 60px;
 }
 
 .site-link {
@@ -46,3 +49,24 @@ body {
 .has-dropdown:hover .dropdown {
     display: block;
 }
+
+code {
+    background-color: rgb(255, 205, 214);
+    color: rgb(186, 71, 90);
+    font-family: monospace;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+main {
+    width: 500px;
+    max-width: fit-content;
+    margin: 50px auto;
+}
+
+.top-part {
+    width: 500px;
+    max-width: fit-content;
+    margin: 40px auto 30px auto;
+}
+
