@@ -63,6 +63,7 @@ main {
     width: 500px;
     max-width: fit-content;
     margin: 50px auto;
+    line-height: 22px;
 }
 
 .top-part {
